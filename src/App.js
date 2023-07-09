@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 import News from './components/News';
 import LoadingBar from 'react-top-loading-bar'
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
@@ -18,7 +18,7 @@ const [progress,setProgress]=useState(0)
     return (
      
       <div>
-       <Router>
+       <Router basename = "/NewsTree>
         <NavBar/>
         <LoadingBar
         color='#f11946'
