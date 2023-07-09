@@ -18,7 +18,7 @@ const [progress,setProgress]=useState(0)
     return (
      
       <div>
-       </Router>
+       <Router>
         <NavBar/>
         <LoadingBar
         color='#f11946'
